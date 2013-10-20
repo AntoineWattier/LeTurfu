@@ -1,7 +1,8 @@
 Projet pour le cours de Wordpress @ HETIC
 
 Groupe:
-- Chassagne
-- Cherbonnel
-- Guerard
+- Kévin Chassagne
+- Coline Cherbonnel
+- Alexandre Guerard
+- Antoine Wattier
  

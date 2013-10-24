@@ -1,0 +1,9 @@
+
+@font-face {
+	font-family: 'MyriadPro-Bold';
+	src: url('MyriadPro-Bold.eot?') format('eot'), 
+	     url('MyriadPro-Bold.otf')  format('opentype'),
+	     url('MyriadPro-Bold.woff') format('woff'), 
+	     url('MyriadPro-Bold.ttf')  format('truetype'),
+	     url('MyriadPro-Bold.svg#MyriadPro-Bold') format('svg');
+}

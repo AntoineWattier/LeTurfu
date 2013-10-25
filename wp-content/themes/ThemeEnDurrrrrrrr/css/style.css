@@ -91,8 +91,17 @@ body {
 	color: #c8ece1;
 	width: 960px;
 	margin: 0 auto;
-	min-height: 1000px;
 	background: linear-gradient(#122038 0%, #1e1238 33%, #1c0b21 100%);
+}
+
+.clearfix:after {
+	content: " ";
+	display: block;
+	clear: both;
+}
+
+.clearfix {
+	zoom: 1;
 }
 
 /* HEADER */
@@ -133,8 +142,12 @@ header .chrono {
 /* ASIDE */
 
 aside {
-	clear: both;
+	float: left;
 	width: 270px;
+	text-align: right;
+	margin: 20px 0 40px 0;
+	padding-right: 40px;
+	box-sizing: border-box;
 }
 
 aside h3 {
@@ -147,7 +160,6 @@ aside a {
 	color: #5e82a5;
 	text-decoration: none;
 	line-height: 1.5rem;
-	text-align: right;
 }
 
 aside a:hover {
@@ -163,14 +175,50 @@ section {
 }
 
 article {
+	position: relative;
 	height: 250px;
 	width: 310px;
 	float: left;
-	margin-left: 20px;
+	margin: 20px 0 0 20px;
+	border-radius: 4px;
+	background: rgba(86,126,245,0.20) url('../img/backgroundArticle.png') no-repeat;
 }
 
+article h2 {
+	font: 1.3em 'MyriadPro-Bold' Verdana, Arial, sans-serif;
+	margin: 20px 0 0 20px;
+	color: #fff;
+	
+}
+
+article p {
+	font: .9em 'MyriadPro-Regular' Verdana, Arial, sans-serif;
+	color: #c8ece1;
+	width: 285px;
+	margin: 10px 0 0 20px;
+}
+
+article .author {
+	font: 'MyriadPro-Regular' Verdana, Arial, sans-serif;
+	color: #5f8ab4;
+	display: block;
+	margin-top: 20px;
+}
+
+.rate {
+	display: block;
+	position: absolute;
+	bottom: 0;
+	width: 310px;
+	height: 60px;
+	border-bottom: solid 5px #274767;
+	border-bottom-left-radius: 2px;
+	border-bottom-right-radius: 2px;
+	background: #355677;
+}
 
 /* FOOTER */
+
 
 footer small {
 	font: 0.8em 'MyriadPro-Regular' Verdana, Arial, sans-serif;

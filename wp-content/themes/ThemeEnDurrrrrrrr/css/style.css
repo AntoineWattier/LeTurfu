@@ -94,7 +94,7 @@ body {
 	background: linear-gradient(#122038 0%, #1e1238 33%, #1c0b21 100%);
 }
 
-.clearfix:after {
+.clearfix:before, .clearfix:after {
 	content: " ";
 	display: block;
 	clear: both;
@@ -106,17 +106,14 @@ body {
 
 /* HEADER */
 
-header {
-	margin-top: 20px;
-}
 
 #logo {
 	display: block;
 	float: left;
-	width: 253px;
-	height: 80px;
+	width: 403px;
+	height: 180px;
 	text-decoration: none;
-	background: url('../img/logo.png') no-repeat;
+	background: url('../img/logo.png') -60px 0px no-repeat;
 }
 
 #logo:hover {
@@ -128,15 +125,17 @@ header {
 }
 
 #logo p {
-	font: 1.3em 'MyriadPro-Regular' Verdana, Arial, sans-serif;
+	font: 1.2em 'MyriadPro-It' Verdana, Arial, sans-serif;
 	color: #c8ece1;	
 	text-shadow: 0px 1px 1px #000;
-	margin-top: 60px;
+	margin: 140px 0 0 65px;
 }
 
 header .chrono {
-	margin-left: 300px;
+	position: relative;
+	top: 100px;
 }
+
 
 
 /* ASIDE */
@@ -145,7 +144,7 @@ aside {
 	float: left;
 	width: 270px;
 	text-align: right;
-	margin: 20px 0 40px 0;
+	margin: 0 0 90px 0;
 	padding-right: 40px;
 	box-sizing: border-box;
 }
@@ -153,6 +152,7 @@ aside {
 aside h3 {
 	font: 1.1em 'MyriadPro-Semibold' Verdana, Arial, sans-serif;
 	color: #f0f1f3;
+	margin: 30px 0 10px 0;
 }
 
 aside a {
@@ -166,12 +166,22 @@ aside a:hover {
 	color: #86b5de;
 }
 
+.tweet {
+	color: #7d7391;	
+}
+
+.tweet span {
+	font-size: .8em;
+	display: block;
+	margin: 10px 0 20px 0;
+}
 
 /* CONTENT */
 
 section {
 	float: right;
 	width: 690px;
+	margin-bottom: 100px;
 }
 
 article {
@@ -221,6 +231,8 @@ article .author {
 
 
 footer small {
+	float: right;
+	margin-right: 40px;
 	font: 0.8em 'MyriadPro-Regular' Verdana, Arial, sans-serif;
 	color: #666;
 }

@@ -86,3 +86,93 @@ table {
 
 /* GENERAL */
 
+body {
+	font: .9em 'MyriadPro-Regular' Verdana, Arial, sans-serif;
+	color: #c8ece1;
+	width: 960px;
+	margin: 0 auto;
+	min-height: 1000px;
+	background: linear-gradient(#122038 0%, #1e1238 33%, #1c0b21 100%);
+}
+
+/* HEADER */
+
+header {
+	margin-top: 20px;
+}
+
+#logo {
+	display: block;
+	float: left;
+	width: 253px;
+	height: 80px;
+	text-decoration: none;
+	background: url('../img/logo.png') no-repeat;
+}
+
+#logo:hover {
+	opacity: 0.9;
+}
+
+#logo h1 {
+	font-size: 0px;
+}
+
+#logo p {
+	font: 1.3em 'MyriadPro-Regular' Verdana, Arial, sans-serif;
+	color: #c8ece1;	
+	text-shadow: 0px 1px 1px #000;
+	margin-top: 60px;
+}
+
+header .chrono {
+	margin-left: 300px;
+}
+
+
+/* ASIDE */
+
+aside {
+	clear: both;
+	width: 270px;
+}
+
+aside h3 {
+	font: 1.1em 'MyriadPro-Semibold' Verdana, Arial, sans-serif;
+	color: #f0f1f3;
+}
+
+aside a {
+	font: 'MyriadPro-Regular' Verdana, Arial, sans-serif;
+	color: #5e82a5;
+	text-decoration: none;
+	line-height: 1.5rem;
+	text-align: right;
+}
+
+aside a:hover {
+	color: #86b5de;
+}
+
+
+/* CONTENT */
+
+section {
+	float: right;
+	width: 690px;
+}
+
+article {
+	height: 250px;
+	width: 310px;
+	float: left;
+	margin-left: 20px;
+}
+
+
+/* FOOTER */
+
+footer small {
+	font: 0.8em 'MyriadPro-Regular' Verdana, Arial, sans-serif;
+	color: #666;
+}
